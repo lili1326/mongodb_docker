@@ -1,5 +1,5 @@
- version: '3.8' # pourquoi et d ou ca vient
- services:
+  version: '3.8' # pourquoi et d ou ca vient
+  services:
   mongodb:
     image: mongo:7.0.8  # pourquoi elle
     restart: always #  si stop redémarre le container avec always
